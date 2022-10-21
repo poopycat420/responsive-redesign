@@ -1,0 +1,125 @@
+/* SEE defaults.css TO SEE DEFINED DEFAULT VALUES */
+
+/* FONTS */
+@font-face {
+  font-family: "OpenSans";
+  src: url(./fonts/OpenSans-Regular.ttf);
+}
+
+/* TAGS */
+body {
+  padding: 5rem 7.5vw;
+  font-family: 'OpenSans', sans-serif;
+  background-color: #F9F3EE;
+  font-size: 1.2rem;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+p, li {
+  /* font-size: 1.3rem; */
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+a {
+  color: black;
+}
+
+img {
+  max-height: 80vh;
+}
+
+/* CLASSES + IDS */
+.img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.text-center {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.title {
+  padding:3vh 0;
+  margin: 0;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.small-title {
+  margin: 0;
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+#content-flex {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+#contents-table-container {
+  position: relative;
+  width: 20%;
+}
+
+#contents-table {
+  position: sticky;
+  top: 15vh;
+  /* top: 10vh; */
+  /* width: 20vw; */
+  /* position: sticky; */
+  /* top: 0; */
+}
+
+#contents-table li {
+  margin-top: 10px;
+}
+
+#content {
+  width: 100%;
+  padding-bottom: 10vh;
+}
+
+.prototype-flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+#hifi-imgs {
+  max-height:none !important;
+}
+#style-guide img {
+  max-height: 60vh;
+  border: 4px solid #1C6DD0;
+}
+
+#orig-site-img {
+  padding: 2.5vh 0;
+}
